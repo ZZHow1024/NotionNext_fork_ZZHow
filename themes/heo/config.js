@@ -23,7 +23,7 @@ const CONFIG = {
   HEO_HERO_TITLE_LINK: 'https://blog.zzhow.com',
 
   // 英雄区显示三个置顶分类
-  HEO_HERO_CATEGORY_1: { title: 'Java', url: 'https://blog.zzhow.com/tag/Java' },
+  HEO_HERO_CATEGORY_1: { title: '学技术', url: 'https://blog.zzhow.com/tag/%E5%AD%A6%E6%8A%80%E6%9C%AF' },
   HEO_HERO_CATEGORY_2: { title: '期末复习', url: 'https://blog.zzhow.com/tag/%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0' },
   HEO_HERO_CATEGORY_3: { title: 'CTF', url: 'https://blog.zzhow.com/tag/CTF' },
 
