@@ -6,7 +6,7 @@ const CONFIG = {
   // 首页顶部通知条滚动内容，如不需要可以留空 []
   HEO_NOTICE_BAR: [
     { title: '欢迎来到ZZHow主站', url: 'https://zzhow.com' },
-    { title: '访问ZZHow博客获取更多精彩内容', url: 'https://blog.zzhow.com' }
+    { title: '访问ZZHow博客获取全部精彩文章', url: 'https://blog.zzhow.com' }
   ],
 
   // 英雄区左右侧组件颠倒位置
@@ -18,7 +18,7 @@ const CONFIG = {
   HEO_HERO_TITLE_1: 'Change the world',
   HEO_HERO_TITLE_2: 'by program!',
   HEO_HERO_TITLE_3: 'zzhow.com',
-  HEO_HERO_TITLE_4: '更多文章',
+  HEO_HERO_TITLE_4: '全部文章',
   HEO_HERO_TITLE_5: '点击前往ZZHow博客获取',
   HEO_HERO_TITLE_LINK: 'https://blog.zzhow.com',
 
@@ -35,14 +35,9 @@ const CONFIG = {
   // 右侧个人资料卡牌欢迎语，点击可自动切换
   HEO_INFOCARD_GREETINGS: [
     '你好！我是',
-    '🔍 分享与热心帮助',
-    '🤝 专修交互与设计',
-    '🏃 脚踏实地行动派',
-    '🏠 智能家居小能手',
-    '🤖️ 数码科技爱好者',
-    '🧱 团队小组发动机'
+    'ZZHow!'
   ],
-  HEO_INFO_CARD_URL: 'https://github.com/tangly1024/NotionNext', // 个人资料底部按钮链接
+  HEO_INFO_CARD_URL: 'https://github.com/zzhow0', // 个人资料底部按钮链接
 
   // 用户技能图标
   HEO_GROUP_ICONS: [
@@ -115,8 +110,8 @@ const CONFIG = {
   HEO_MENU_INDEX: true, // 显示首页
   HEO_MENU_CATEGORY: true, // 显示分类
   HEO_MENU_TAG: true, // 显示标签
-  HEO_MENU_ARCHIVE: true, // 显示归档
-  HEO_MENU_SEARCH: true, // 显示搜索
+  HEO_MENU_ARCHIVE: false, // 显示归档
+  HEO_MENU_SEARCH: false, // 显示搜索
 
   HEO_POST_LIST_COVER: true, // 列表显示文章封面
   HEO_POST_LIST_COVER_HOVER_ENLARGE: false, // 列表鼠标悬停放大
