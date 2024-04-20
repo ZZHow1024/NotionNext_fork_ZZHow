@@ -15,12 +15,6 @@ export function AnalyticsCard(props) {
   const { postCount } = props
   return <>
         <div className='text-md flex flex-col space-y-1 justify-center px-3'>
-            // <div className='inline'>
-            //     <div className='flex justify-between'>
-            //         <div>文章数:</div>
-            //         <div>{postCount}</div>
-            //     </div>
-            // </div>
             <div className='inline'>
                 <div className='flex justify-between'>
                     <div>建站天数:</div>
