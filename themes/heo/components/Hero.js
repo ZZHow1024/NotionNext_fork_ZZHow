@@ -69,11 +69,10 @@ function Banner(props) {
   const { latestPosts } = props
   /**
    * 随机跳转文章
+   * 修改为指定跳转至ZZHow Blog
    */
   function handleClickBanner() {
-    const randomIndex = Math.floor(Math.random() * latestPosts.length)
-    const randomPost = latestPosts[randomIndex]
-    router.push(`${siteConfig('SUB_PATH', '')}/${randomPost?.slug}`)
+    window.location.href="https://blog.zzhow.com"
   }
 
   return (
