@@ -104,7 +104,7 @@ function Banner(props) {
         }
       >
         <div className="ml-12 -translate-x-32 group-hover:translate-x-0 duration-300 transition-all ease-in">
-          <div className="text-7xl text-white font-extrabold">随便逛逛</div>
+          <div className="text-7xl text-white font-extrabold">前往ZZHow Blog</div>
           <div className="-ml-3 text-gray-300">
             <ArrowSmallRight className={'w-24 h-24 stroke-2'} />
           </div>
