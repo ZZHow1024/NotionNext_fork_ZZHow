@@ -35,7 +35,9 @@ const CONFIG = {
   // 右侧个人资料卡牌欢迎语，点击可自动切换
   HEO_INFOCARD_GREETINGS: [
     '你好！我是',
-    'ZZHow!'
+    'ZZHow!',
+    'Change the world by program❤️',
+    '我亦无他，惟手熟尔。'
   ],
   HEO_INFO_CARD_URL: 'https://github.com/zzhow0', // 个人资料底部按钮链接
 
