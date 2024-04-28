@@ -39,7 +39,7 @@ const CONFIG = {
     'Change the world by program❤️',
     '我亦无他，惟手熟尔。'
   ],
-  HEO_INFO_CARD_URL: 'https://github.com/zzhow0', // 个人资料底部按钮链接
+  HEO_INFO_CARD_URL: 'https://github.com/ZZHow1024', // 个人资料底部按钮链接
 
   // 用户技能图标
   HEO_GROUP_ICONS: [
